@@ -7,6 +7,7 @@
 
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
 	@livewireStyles
+	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 
 </head>
 <body class="font-sans bg-gray-900 text-white">
