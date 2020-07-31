@@ -6,6 +6,7 @@
 	<title>Movie App</title>
 
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	@livewireStyles
 
 </head>
 <body class="font-sans bg-gray-900 text-white">
@@ -29,10 +30,7 @@
 			</ul>
 
 			<div class="flex flex-col md:flex-row items-center">
-				<div class="relative mt-3 md:mt-0">
-					<input type="text" class="bg-gray-800 rounded-full w-64 px-4 pl-8 y-1 focus:outline-none focus:shadow-outline" placeholder="Search">
-				</div>
-
+				<livewire:search-dropdown>
 				<div class="md:ml-4 mt-3 md:mt-0">
                     <a href="#">
                         <img src="/img/avatar.jpg" alt="avatar" class="rounded-full w-8 h-8">
@@ -42,5 +40,6 @@
 		</div>
 	</nav>
 	@yield('content')
+	@livewireScripts
 </body>
 </html>
