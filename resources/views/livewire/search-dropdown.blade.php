@@ -6,7 +6,7 @@
 		placeholder="Search"
 		x-ref="search"
 		@keydown.window="
-			if(event.keyCode ===) {
+			if(event.keyCode === 191) {
 				event.preventDefault();
 				$refs.search.focus();
 			}
