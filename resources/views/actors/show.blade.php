@@ -76,41 +76,13 @@
 		<div class="container mx-auto px-4 py-16">
 			<h2 class="text-4xl font-semibold">Credits</h2>
 			<ul class="list-disc leading-loose pl-5 mt-8">
-				<li>
-					2020 &middot;
-					<strong><a href="" class="hover:underline">Judul film</a></strong>
-					as Nama Peran
-				</li>
-				<li>
-					2020 &middot;
-					<strong><a href="" class="hover:underline">Judul film</a></strong>
-					as Nama Peran
-				</li>
-				<li>
-					2020 &middot;
-					<strong><a href="" class="hover:underline">Judul film</a></strong>
-					as Nama Peran
-				</li>
-				<li>
-					2020 &middot;
-					<strong><a href="" class="hover:underline">Judul film</a></strong>
-					as Nama Peran
-				</li>
-				<li>
-					2020 &middot;
-					<strong><a href="" class="hover:underline">Judul film</a></strong>
-					as Nama Peran
-				</li>
-				<li>
-					2020 &middot;
-					<strong><a href="" class="hover:underline">Judul film</a></strong>
-					as Nama Peran
-				</li>
-				<li>
-					2020 &middot;
-					<strong><a href="" class="hover:underline">Judul film</a></strong>
-					as Nama Peran
-				</li>
+				@foreach($credits as $credit)
+					<li>
+						{{ $credit['release_year'] }} &middot;
+						<strong><a href="{{route('movies.show', $credit['id'])}}" class="hover:underline">{{$credit['title']}}</a></strong>
+						as {{$credit['character']}}
+					</li>
+				@endforeach
 			</ul>
 		</div>
 	</div>
