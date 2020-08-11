@@ -79,7 +79,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
 ## Laravel Movie App
 
-Movie App adalah projek latihan dengan mengikuti tutorial dari Andre Madarang, untuk video lengkapnya bisa dilihat [di sini] (https://www.youtube.com/playlist?list=PLEhEHUEU3x5pYTjZze3fhYMB4Nl_WOHI4).
+Movie App adalah projek latihan dengan mengikuti tutorial dari Andre Madarang, untuk video lengkapnya bisa dilihat [di sini](https://www.youtube.com/playlist?list=PLEhEHUEU3x5pYTjZze3fhYMB4Nl_WOHI4).
 
 ## Installation
 
